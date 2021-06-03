@@ -4,6 +4,8 @@ Since you are interested in what happens next, in case, you work for a for-profi
 
 ---
 
+## 10.6.1-mail-jss-int.1 (2021-6-3)
+
 ## 10.6.0 (2021-3-14)
 
 ### Improvements

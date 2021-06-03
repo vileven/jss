@@ -8,7 +8,7 @@
 
 > Implements css() interface on top of JSS
 
-See our website [css-jss](https://cssinjs.org/css-jss?v=v10.6.1-mail-jss-int.0) for more information.
+See our website [css-jss](https://cssinjs.org/css-jss?v=v10.6.1-mail-jss-int.1) for more information.
 
 ## Install
 

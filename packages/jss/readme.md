@@ -8,7 +8,7 @@
 
 > A lib for generating Style Sheets with JavaScript.
 
-See our website [jss](https://cssinjs.org/setup?v=v10.6.1-mail-jss-int.0) for more information.
+See our website [jss](https://cssinjs.org/setup?v=v10.6.1-mail-jss-int.1) for more information.
 
 ## Install
 

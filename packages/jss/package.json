@@ -1,7 +1,7 @@
 {
   "name": "jss",
   "description": "A lib for generating Style Sheets with JavaScript.",
-  "version": "10.6.1-mail-jss-int.0",
+  "version": "10.6.1-mail-jss-int.1",
   "license": "MIT",
   "homepage": "https://cssinjs.org/",
   "main": "dist/jss.cjs.js",

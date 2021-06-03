@@ -1,7 +1,7 @@
 {
   "name": "jss-starter-kit",
   "description": "A bundle to get you started playing with JSS. Not optimized for production deployment.",
-  "version": "10.6.1-mail-jss-int.0",
+  "version": "10.6.1-mail-jss-int.1",
   "license": "MIT",
   "homepage": "https://cssinjs.org/",
   "main": "dist/jss-starter-kit.cjs.js",
@@ -39,10 +39,10 @@
   },
   "dependencies": {
     "css-jss": "10.6.0",
-    "jss": "10.6.1-mail-jss-int.0",
-    "jss-plugin-cache": "10.6.1-mail-jss-int.0",
-    "jss-plugin-isolate": "10.6.1-mail-jss-int.0",
-    "jss-preset-default": "10.6.1-mail-jss-int.0",
+    "jss": "10.6.1-mail-jss-int.1",
+    "jss-plugin-cache": "10.6.1-mail-jss-int.1",
+    "jss-plugin-isolate": "10.6.1-mail-jss-int.1",
+    "jss-preset-default": "10.6.1-mail-jss-int.1",
     "react-jss": "10.6.0"
   }
 }
