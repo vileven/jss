@@ -19,7 +19,7 @@
     "pre-commit": "lint-staged && yarn check:all",
     "---Release Scripts---": "",
     "publish-all-branch": "lerna publish --cd-version=prerelease --force-publish=* --preid=$(git symbolic-ref --short HEAD) --yes --exact",
-    "version": "yarn build && yarn test && node ./scripts/update-changelog && node ./scripts/add-git-files",
+    "version": "yarn build && node ./scripts/update-changelog && node ./scripts/add-git-files",
     "prerelease": "yarn check:all && yarn format:ci",
     "release": "lerna publish",
     "postrelease": "node ./scripts/create-github-release",

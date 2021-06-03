@@ -1,10 +1,12 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "10.6.0",
+  "version": "10.6.1-mail-jss-int.0",
   "command": {
     "publish": {
-      "allow-branch": ["master"]
+      "allow-branch": [
+        "master"
+      ]
     }
   }
 }
