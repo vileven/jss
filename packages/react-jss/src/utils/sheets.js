@@ -34,7 +34,7 @@ const getStyles: GetStyles = <Theme>(options) => {
   return styles(options.theme)
 }
 
-function getSheetOptions<Theme>(options: Options<Theme>, link: boolean) {
+function getSheetOptions<Theme>(options: Options<Theme>, linkParams: boolean) {
   let minify
   if (options.context.id && options.context.id.minify != null) {
     minify = options.context.id.minify
@@ -48,6 +48,8 @@ function getSheetOptions<Theme>(options: Options<Theme>, link: boolean) {
   let meta = ''
   if (options.name) meta = `${options.name}, `
   meta += typeof options.styles === 'function' ? 'Themed' : 'Unthemed'
+
+  const link = options.sheetOptions.link ?? linkParams
 
   return {
     ...options.sheetOptions,

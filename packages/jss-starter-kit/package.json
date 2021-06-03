@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "css-jss": "10.6.0",
-    "jss": "10.6.0",
+    "jss": "10.6.0-mrg-fork.13",
     "jss-plugin-cache": "10.6.0",
     "jss-plugin-isolate": "10.6.0",
     "jss-preset-default": "10.6.0",

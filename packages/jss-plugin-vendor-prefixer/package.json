@@ -36,7 +36,7 @@
   "dependencies": {
     "@babel/runtime": "^7.3.1",
     "css-vendor": "^2.0.8",
-    "jss": "10.6.0"
+    "jss": "10.6.0-mrg-fork.13"
   },
   "devDependencies": {
     "jss-plugin-rule-value-function": "10.6.0"

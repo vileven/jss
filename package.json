@@ -18,6 +18,7 @@
     "test:bench": "cross-env BENCHMARK=true karma start --single-run",
     "pre-commit": "lint-staged && yarn check:all",
     "---Release Scripts---": "",
+    "publish-all-branch": "lerna publish --cd-version=prerelease --force-publish=* --preid=$(git symbolic-ref --short HEAD) --yes --exact",
     "version": "yarn build && yarn test && node ./scripts/update-changelog && node ./scripts/add-git-files",
     "prerelease": "yarn check:all && yarn format:ci",
     "release": "lerna publish",
@@ -102,5 +103,8 @@
     "typescript": "^3.7.0",
     "webpack": "^4.28.3",
     "zen-observable": "^0.6.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.2"
   }
 }

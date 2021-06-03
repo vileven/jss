@@ -64,7 +64,7 @@ export default function toCss(
   }
 
   // Allow empty style in this case, because properties will be added dynamically.
-  if (!result && !options.allowEmpty) return result
+  // if (!result && !options.allowEmpty) return result
 
   // When rule is being stringified before selector was defined.
   if (!selector) return result

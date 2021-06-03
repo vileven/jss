@@ -195,6 +195,11 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
   integrity sha512-CYAOUCARwExnEixLdB6sDm2dIJ/YgEAKDM1MOeMeZu9Ld/bDgVo8aiWrXwcY7OBh+1Ea2uUcVRcxKk0GJvW7QA==
 
+"@babel/helper-plugin-utils@^7.13.0", "@babel/helper-plugin-utils@^7.8.0":
+  version "7.13.0"
+  resolved "http://dragonballs.dev.mail.ru:6666/@babel%2fhelper-plugin-utils/-/helper-plugin-utils-7.13.0.tgz#806526ce125aed03373bc416a828321e3a6a33af"
+  integrity sha512-ZPafIPSwzUlAoWT8DKs1W2VyF2gOWthGd5NGFMsBcMMol+ZhK+EQY/e6V96poa6PA/Bh+C9plWN0hXO1uB8AfQ==
+
 "@babel/helper-regex@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0.tgz#2c1718923b57f9bbe64705ffe5640ac64d9bdb27"
@@ -315,6 +320,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-json-strings" "^7.2.0"
 
+"@babel/plugin-proposal-nullish-coalescing-operator@^7.14.2":
+  version "7.14.2"
+  resolved "http://dragonballs.dev.mail.ru:6666/@babel%2fplugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.14.2.tgz#425b11dc62fc26939a2ab42cbba680bdf5734546"
+  integrity sha512-ebR0zU9OvI2N4qiAC38KIAK75KItpIPTpAtd2r4OZmMFeKbKJpUFLYP2EuDut82+BmYi8sz42B+TfTptJ9iG5Q==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.13.0"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
+
 "@babel/plugin-proposal-object-rest-spread@^7.3.1", "@babel/plugin-proposal-object-rest-spread@^7.3.2":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.3.2.tgz#6d1859882d4d778578e41f82cc5d7bf3d5daf6c1"
@@ -367,6 +380,13 @@
   integrity sha512-PdmL2AoPsCLWxhIr3kG2+F9v4WH06Q3z+NoGVpQgnUNGcagXHq5sB3OXxkSahKq9TLdNMN/AJzFYSOo8UKDMHg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-syntax-nullish-coalescing-operator@^7.8.3":
+  version "7.8.3"
+  resolved "http://dragonballs.dev.mail.ru:6666/@babel%2fplugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz#167ed70368886081f74b5c36c65a88c03b66d1a9"
+  integrity sha512-aSff4zPII1u2QD7y+F8oDsz19ew4IGEJg9SVW+bqwpwtfFleiQDMdzA/R+UlWDzfnHFCxxleFT0PMIrR36XLNQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-object-rest-spread@^7.2.0":
   version "7.2.0"
@@ -8442,6 +8462,23 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-jss@10.6.0:
+  version "10.6.0"
+  resolved "http://dragonballs.dev.mail.ru:6666/react-jss/-/react-jss-10.6.0.tgz#3d1538d085c55f7b0bc3607a61943f588e56f0f6"
+  integrity sha512-uCvOHMoQrB+cD8l6K6+gIStqBhTyjPM/55sXHfujlr0E4GclQg0ZR26nyGyh7XB+v9a2FfMp6Y4L2Bc1Z+L1oQ==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    "@emotion/is-prop-valid" "^0.7.3"
+    css-jss "10.6.0"
+    hoist-non-react-statics "^3.2.0"
+    is-in-browser "^1.1.3"
+    jss "10.6.0"
+    jss-preset-default "10.6.0"
+    prop-types "^15.6.0"
+    shallow-equal "^1.2.0"
+    theming "^3.3.0"
+    tiny-warning "^1.0.2"
 
 react-test-renderer@^16.8.6:
   version "16.8.6"

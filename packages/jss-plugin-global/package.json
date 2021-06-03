@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.1",
-    "jss": "10.6.0"
+    "jss": "10.6.0-mrg-fork.13"
   }
 }

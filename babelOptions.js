@@ -3,6 +3,7 @@ exports.getBabelOptions = ({useESModules}) => ({
   plugins: [
     ['@babel/proposal-class-properties', {loose: true}],
     ['@babel/transform-runtime', {useESModules}],
+    ['@babel/plugin-proposal-nullish-coalescing-operator'],
     ['dev-expression']
   ]
 })
